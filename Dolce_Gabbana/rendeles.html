@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+    <title>Dolce&Gabbana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+ function checkone(checkbox) {
+    var checkboxes = document.getElementsByName('checkbox')
+    checkboxes.forEach((item) => {
+        if (item !== checkbox) item.checked = false
+    })
+}
+function popup() {
+    var txt;
+    var person = prompt("Please enter your card code:");
+    if (person == null || person == "") {
+        alert("Please, enter a valid number.");
+    } 
+    else {
+        alert("Thank you for your ordering!");
+    }
+}
+function nextpage() {
+    location.replace("index.html");
+}
+</script>
+<body>
+    <div class="maindiv">
+        <nav class="navigation">
+            <a href="index.html" class="logo firstitem"><img src="logo.jpg" alt="" class="img"></a>
+            <a href="termekek.html" class="firstitem">Woman</a>
+            <a href="termekek.html" class="firstitem">Man</a>
+            <a href="termekek.html" class="firstitem">Children</a>
+            <a href="support.html" class="firstitem">Support</a>
+            <a href="about.html" class="firstitem">About us</a>
+        </nav>
+
+        <div class="shipping">
+            <h2>Free shipping and returns.</h2>
+        </div>
+
+
+        <div class="border">
+        
+        </div>
+
+        <div class="cart">
+            <form action="" class="form" name="mainform" id="mainform">
+                <div class="inputrow">First Name: <input type="text" name="firstname"></div>
+                <div class="inputrow">Last Name: <input type="text" name="lastname"></div>
+                <div class="inputrow">E-mail: <input type="text" name="email"></div>
+                <div class="inputrow">Mobile Number: <input type="text" name="number"></div>
+                <div class="shipping">
+                        <h2>Where would you like to take over?</h2>
+                    </div>
+            
+                    <div class="border">
+                    
+                    </div>
+            
+                <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="russia">Russia</option>
+                        <option value="uk">UK</option>
+                        <option value="austria">Austria</option>
+                        <option value="hungary">Hungary</option>
+                        <option value="italy">Italy</option>
+                      </select>
+                      
+                        <div class="inputrow">Town: <input type="text" name="town"></div>
+                        <div class="inputrow">Adress: <input type="text" name="adress"></div>
+                        <div class="inputrow">Postcode: <input type="text" name="postcode"></div>
+            </form>
+        </div>
+
+        <div class="shipping">
+            <h2>How would you want to pay?</h2>
+        </div>
+
+        <div class="border">
+        
+        </div>
+
+        <div class="cart">
+            <form action="" class="form" name="mainform" id="mainform">
+                <div class="checkbox"> Bank card:<input type="checkbox" name="checkbox" onclick="checkone(this), popup()" class="check">
+                 Collect on delivery:<input type="checkbox" name="checkbox" onclick="checkone(this)" class="check"></div> 
+            </form>
+        </div>
+      
+        <div class="cart">
+                <form action="" class="form" name="mainform" id="mainform">
+                        <input type="submit" value="Submit" form="mainform" formtarget="index.html">
+                </form>
+            </div>
+
+            <div class="nextbutton">
+                <button onclick="nextpage()">Finish</button>
+            </div>
+    </div>
+</body>
+</html>

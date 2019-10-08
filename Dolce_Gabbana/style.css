@@ -1,0 +1,431 @@
+body {
+    margin: 0px;
+}
+* {
+font-family: 'ZCOOL XiaoWei', serif;
+    }
+.navigation {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    font-size: 150%;
+    background-color: black;
+    border-bottom: solid 2px white;
+}
+.firstitem {
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    margin-right: 100px;
+    margin-bottom: 5px;
+}
+.firstitem:hover {
+    border-bottom: 1px solid white;
+}
+.logo {
+    height: 50px;
+    width: 250px;
+    margin-top: 17.5px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+.collectionimg {
+    background-image: url("https://d2ls16jjuwnppu.cloudfront.net/wp-content/uploads/dolce-and-gabbana-summer-2019-woman-street-sicily-man-dgforce-collection-online-store-top-banner.jpg");
+    margin: 0px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title {
+    margin: auto;
+    color: white;
+    font-size: 200%;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.title_2 {
+    font-size: 150%;
+    color: white;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.collection_1 {
+    margin: 0px;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.c1 {
+    width: 700px;
+    height: 400px;
+    box-shadow: 5px 5px 2px grey;
+}
+button {
+    position: relative;
+    height: 45px;
+    width: 150px;
+    margin: 10px 7px;
+    padding: 5px 5px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    outline: 0;
+    overflow:hidden;
+    background: black;
+    z-index: 1;
+    cursor: pointer;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+  }
+  .c1text {
+      margin-left: 50px;
+      margin-top: 80px;
+  }
+  button:hover {
+      color: grey;
+      -webkit-transition: 0.25s;
+  }
+  .border {
+      width: 75%;
+      height: 2px;
+      background-color: black;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .maindiv {
+      display: flex;
+      flex-direction: column;
+  }
+  .collection2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+  }
+  .c2 {
+    width: 700px;
+    height: 400px;
+    box-shadow: 5px 5px 2px grey;
+  }
+  .c2text {
+    margin-right: 50px;
+    margin-top: 80px;
+  }
+  .c3 {
+    width: 700px;
+    height: 400px;
+    box-shadow: 5px 5px 2px grey;
+  }
+  .collection3 {
+    margin: 0px;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .c3text {
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+  .footer {
+      width: 100%;
+      height: 250px;
+      background-color: dimgrey;
+      display: flex;
+      flex-direction: row;
+  }
+  .footer_1 {
+      height: 90%;
+      display: flex;
+      width: 50%;
+      flex-direction: column;
+      text-align: center;
+  }
+  .footer_2 {
+    height: 90%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footertitle {
+    text-align: center;
+  }
+  .list1 {
+      color: white;
+      font-size: 150%;
+      list-style-type: none;
+      margin-right: 40px;
+  }
+  .list2 {
+    color: white;
+    font-size: 150%;
+    list-style-type: none;
+    margin-right: 40px;
+  }
+  .banner {
+    background-image: url("https://d2ls16jjuwnppu.cloudfront.net/wp-content/uploads/dolce-and-gabbana-summer-2019-woman-jersey-online-store-top-banner.jpg");
+    margin: 0px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+  }
+  .bannertitle {
+    margin: auto;
+    color: whitesmoke;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    font-size: 300%;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  .bannertitle_2 {
+    font-size: 250%;
+    color: whitesmoke;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  .ruhak1 {
+      width: 100%;
+      height: 700px;
+      display: flex;
+  }
+  .cucckep {
+    height: 426px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    cursor: pointer;
+  }
+  .ruhakep1 {
+      height: 539px;
+  }
+  .cucc1 {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  .ruhakep1:hover {
+    box-shadow: 10px 10px 5px #000000;
+  -moz-box-shadow: 0px 10px 5px #000000;
+-webkit-box-shadow: 0px 10px 5px #000000;
+  }
+  .order {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .shipping {
+    display: flex;
+    justify-content: center;
+  }
+  .cart {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 120%;
+  }
+  input[type='text'], select {
+    width: 300px;
+    height: 25px;
+    border: grey, solid, 2px;
+    flex-grow: 1;
+    font-size: 110%;
+    margin-left: 5px;
+  }
+  .inputrow, select {
+    display: flex;
+    margin: 20px;
+  }
+  select {
+    margin-left: 130px;
+  }
+  .checkbox {
+    display: flex;
+    flex-direction: row;
+    font-size: 120%;
+  }
+  input[type=checkbox], input[type=submit] {
+    zoom: 1.5;
+}
+  input[type=submit] {
+    margin: 10px;
+}
+.nextbutton {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.supportbanner {
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+}
+#banner {
+  width: 300px;
+  height: 50px;
+  margin: 20px;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+.border2 {
+      width: 50%;
+      height: 2px;
+      background-color: rgb(128, 128, 128);
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
+.messagebox {
+  width: 50%;
+  background-color: rgb(209, 209, 209);
+  margin: auto;
+  -webkit-box-shadow: 10px 6px 17px -1px rgba(0,0,0,0.76);
+  -moz-box-shadow: 10px 6px 17px -1px rgba(0,0,0,0.76);
+  box-shadow: 10px 6px 17px -1px rgba(0,0,0,0.76);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.supporttitle {
+  font-size: 150%;
+}
+.inputrow2 {
+  margin: auto;
+  font-size: 140%;
+  display: flex;
+  width: 500px;
+  flex-direction: row;
+  padding: 10px;
+}
+#select2 {
+  margin: auto;
+  margin-bottom: 20px;
+}
+#selectone {
+  font-size: 130%;
+}
+#subject {
+  resize: vertical;
+  box-sizing: border-box;
+  padding: 12px;
+  margin: 10px;
+  width: 400px;
+  font-size: 80%;
+}
+.inputrow3 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 150%;
+  margin-left: 100px;
+}
+.backbutton {
+  display: flex;
+  justify-content: center;
+}
+.text_banner {
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+#text1 {
+  margin: 10px;
+  font-size: 150%;
+  margin-right: 200px;
+  text-align: justify;
+  text-justify: auto;
+}
+.founders {
+  display: flex;
+  width: 75%;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.ftitle {
+  display: flex;
+  justify-content: center;
+}
+.card1 {
+  display: flex;
+  width: 200px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.438);
+  transition: 0.3s;
+}
+#pic2 {
+  width: 220px;
+  height: 280px;
+}
+.card2 {
+  display: flex;
+  width: 220px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.438);
+  transition: 0.3s;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  width: 220px;
+}
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.map {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.maptext {
+  font-size: 180%;
+}
+.last {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+    <title>Dolce&Gabbana</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Contact-FormModal-Contact-Form-with-Google-Map.css">
+    <link rel="stylesheet" href="assets/css/ebs-contact-form.css">
+    <link rel="stylesheet" href="assets/css/ebs-contact-form1.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<script>
+    function backfunction() {
+        location.replace("index.html");
+    }
+</script>
+<body>
+    <div class="container">
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal1">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Contact Information</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <form action="javascript:void();" method="get" id="contactForm"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.mywebsite.com"><input class="form-control" type="hidden" name="subject" value="My Contact Form"><input class="form-control" type="hidden"
+                                name="to" value="email@mywebsite.com">
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div id="modal-successfail"></div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6" id="modal-message">
+                                    <fieldset>
+                                        <legend><i class="fa fa-envelope"></i> Contact Us</legend>
+                                    </fieldset>
+                                    <div class="form-group has-feedback"><label for="modal_from_name">Name</label><input class="form-control" type="text" name="from_name" required="" placeholder="Full Name" id="modal_from_name" tabindex="-1"></div>
+                                    <div class="form-group has-feedback"><label for="modal_from_email">Email</label><input class="form-control" type="email" name="from_email" required="" placeholder="Email Address" id="modal_from_email"></div>
+                                    <div class="form-row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group has-feedback"><label for="modal_from_phone">Phone</label><input class="form-control" type="text" name="from_phone" placeholder="Primary Phone" id="modal_from_phone"></div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group"><label for="modal_calltime">Best Time to Call</label><select class="form-control" name="Call Time" id="modal_calltime"><optgroup label="This is a group"><option value="12" selected="">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></optgroup></select></div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group"><label for="modal_comments">Comments</label><textarea class="form-control" rows="5" name="Comments" placeholder="Enter comments here" id="modal_comments"></textarea></div>
+                                    <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Send <i class="fa fa-chevron-circle-right"></i></button></div>
+                                    <hr>
+                                </div>
+                                <div class="col-md-6">
+                                    <fieldset>
+                                        <legend> <i class="fa fa-location-arrow"></i> Locate Us</legend>
+                                    </fieldset>
+                                    <div class="form-row">
+                                        <div class="col-md-12">
+                                            <div class="static-map"><a href="https://www.google.com/maps/place/2+15th+St+NW+Washington+DC+20024" target="_blank"><img class="img-fluid" src="http://maps.googleapis.com/maps/api/staticmap?autoscale=2&amp;size=600x210&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C582+1801+W+International+Speedway+Blvd+Daytona+Beach+FL+32114&amp;zoom=12" alt="Google Map of Washington Monument"></a></div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <fieldset>
+                                                <legend><i class="fa fa-envelope"></i> Contact Us</legend>
+                                            </fieldset>
+                                            <div><span><strong>Name</strong></span></div>
+                                            <div><span>email@address.com</span></div>
+                                            <div><span>www.awebsite.com</span></div>
+                                            <hr>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <fieldset>
+                                                <legend><i class="fa fa-location-arrow"></i> Our Address</legend>
+                                            </fieldset>
+                                            <div><span><strong>Office Name</strong></span></div>
+                                            <div><span>55 Icannot Dr.</span></div>
+                                            <div><span>Daytona Beach, FL 81500</span></div>
+                                            <div><abbr data-toggle="tooltip" data-placement="top" title="Office Phone: 555-867-5309">O:</abbr> 555-867-5309</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form action="javascript:void();" method="get" id="contactForm"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.mywebsite.com"><input class="form-control" type="hidden" name="subject" value="My Contact Form"><input class="form-control" type="hidden" name="to"
+                value="email@mywebsite.com">
+            <div class="form-row">
+                <div class="col-md-6">
+                    <div id="successfail"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="container" id="info-container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center text-info">Contact Us</h2>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6" id="contact-box">
+                <p id="contact-text">Do you a have a problem with something? Write it to us, and we are going to help! </p>
+                <div class="info-box"><i class="fa fa-map-marker my-info-icons"></i><span class="text-uppercase text-info">Address: </span><span>MCC Road, Aba, Abia State Nigeria</span></div>
+                <div class="info-box"><i class="fa fa-envelope my-info-icons"></i><span class="text-uppercase text-info">Email: </span><span>contact@ensignhospital.org </span></div>
+                <div class="info-box"><i class="fa fa-phone-square my-info-icons"></i><span class="text-uppercase text-info">Phone: </span><span>+234000000000 </span></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 site-form">
+                <form id="my-form">
+                    <div class="form-group"><label class="sr-only" for="firstname">First Name</label><input class="form-control" type="text" name="firstname" placeholder="First Name" autofocus="" id="firstname"></div>
+                    <div class="form-group"><label class="sr-only" for="lastname">Last Name</label><input class="form-control" type="text" name="lastname" placeholder="Last Name" id="lastname"></div>
+                    <div class="form-group"><label class="sr-only" for="phonenumber">Phone Number</label><input class="form-control" type="tel" name="phonenumber" required="" placeholder="Phone" id="phonenumber"></div>
+                    <div class="form-group"><label class="sr-only" for="email">Email Address</label><input class="form-control" type="text" name="email" required="" placeholder="Email" id="email"></div>
+                    <div class="form-group"><label class="sr-only" for="messages">Last Name</label><textarea class="form-control" rows="8" name="messages" required="" placeholder="Message"></textarea></div><button class="btn btn-light btn-lg" type="submit" id="form-btn">SEND </button></form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Contact-FormModal-Contact-Form-with-Google-Map.js"></script>
+</body>
+</html>
